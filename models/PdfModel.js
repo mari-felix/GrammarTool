@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-//Modelo para o PSF
+//Modelo para o PDF
 const pdfSchema = new mongoose.Schema({
     filename: Document,
     size: Number,
