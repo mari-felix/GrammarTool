@@ -1,3 +1,4 @@
+// Configuração para montar as rotas 
 const express = require('express');
 const Pdf = require('../models/PdfModel');
 const router = express.Router();
