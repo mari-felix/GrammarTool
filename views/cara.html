@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corretor de Texto de PDF</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Corretor de Texto de PDF</h1>
+    </header>
+
+    <main>
+        <input type="file" accept=".pdf" onchange="carregarPDF()" /> <br>
+        <textarea id="textoPDF" rows="10" cols="50" placeholder="Texto do PDF..."></textarea> <br>
+        <div class="containerBotoes">
+            <button onclick="verificarCorrecoes()">Verificar e Corrigir</button>
+            <button onclick="baixarArquivoCorrigido()">Baixar Arquivo Corrigido</button>
+        </div>
+        <br>
+        <hr>
+        <div id="sugestoes"></div>
+    </main>
+
+    <script src="../services/APIservice.js"></script>
+</body>
+</html>

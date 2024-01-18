@@ -1,0 +1,52 @@
+header{
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(148, 153, 153);
+    border: 2px solid #333;
+    border-radius: 6px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+body {
+    background-color: #e9e8e8;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    display: inline-block;
+}
+
+input {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+ 
+textarea {
+    margin-bottom: 30px;
+}
+
+.containerBotoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sugestoes {
+    text-align: left;
+}
+
+.sugestao {
+    background-color: rgb(175, 175, 175);
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px 20px;
+   
+}
+
+#sugestoes p:first-child {
+    font-weight: 600;
+}
